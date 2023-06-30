@@ -18,6 +18,8 @@ export default function Slug(){
         }
     },[slug]);
 
+    // console.log(html)
+
     return(
         <div>
              {/* <Head>

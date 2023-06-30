@@ -92,6 +92,16 @@ export default function Home() {
                 >
                   Exploree
                 </Button>
+                <Button
+                  variant="solid"
+                  size="sm"
+                  color="primary"
+                  aria-label="Explore Bahamas Islands"
+                  sx={{ ml: 'auto', fontWeight: 600 }}
+                  onClick={()=>{window.location.pathname="comment/"+item?.id}}
+                >
+                  Comments
+                </Button>
               </CardContent>
             </Card>
           )
